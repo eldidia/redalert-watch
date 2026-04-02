@@ -7,6 +7,11 @@ plugins {
 android {
     namespace 'com.redalert.watch'
     compileSdk 34
+    applicationVariants.all { variant ->
+    variant.outputs.all {
+        outputFileName = "ALERT-${variant.versionName}.apk"
+    }
+}
 
     defaultConfig {
         applicationId "com.redalert.watch"

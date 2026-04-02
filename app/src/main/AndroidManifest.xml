@@ -16,8 +16,9 @@
     <uses-feature android:name="android.hardware.type.watch" />
 
     <application
-        android:label="צבע אדום"
+        android:label="Alert"
         android:supportsRtl="true"
+        android:icon="@mipmap/ic_launcher"
         android:theme="@android:style/Theme.DeviceDefault">
 
         <activity

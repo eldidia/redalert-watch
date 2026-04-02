@@ -69,7 +69,7 @@ class MainActivity : ComponentActivity() {
 
         // כתובת השרת שלך על Render
         // שנה את זה לאחר שתעלה לשרת!
-        const val SERVER_URL = "https://YOUR-APP.onrender.com"
+        const val SERVER_URL = "https://redalert-pushy-server.onrender.com"
     }
 
     private val notifPermission = registerForActivityResult(

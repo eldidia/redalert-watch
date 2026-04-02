@@ -25,9 +25,6 @@ android {
     kotlinOptions { jvmTarget = '17' }
 }
 
-repositories {
-    maven { url 'https://repo.pushy.me/maven/' }
-}
 
 dependencies {
     // Wear OS Compose
